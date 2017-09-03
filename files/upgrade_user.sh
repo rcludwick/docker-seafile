@@ -25,7 +25,7 @@ BASE_VERSION="${BASE_SEAFILE_NAME#${PREFIX_SEAFILE_NAME}}"
 echo "Tring to upgrade from [${BASE_VERSION}] to [${SEAFILE_VERSION}]"
 
 SEAFILE_FILENAME="seafile-server_${SEAFILE_VERSION}_x86-64.tar.gz"
-SEAFILE_TARGZ="https://bintray.com/artifact/download/seafile-org/seafile/${SEAFILE_FILENAME}"
+SEAFILE_TARGZ="https://download.seadrive.org/${SEAFILE_FILENAME}"
 SEAFILE_INSTALLNAME="${PREFIX_SEAFILE_NAME}${SEAFILE_VERSION}"
 
 INSTALL_DIR="${APP_DIR}/${SEAFILE_INSTALLNAME}"

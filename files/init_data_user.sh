@@ -9,7 +9,7 @@ TEMP_DIR="/tmp/seafile-install"
 [ -z "${SEAFILE_VERSION}" ] && SEAFILE_VERSION="6.0.5"
 
 SEAFILE_FILENAME="seafile-server_${SEAFILE_VERSION}_x86-64.tar.gz"
-SEAFILE_TARGZ="https://bintray.com/artifact/download/seafile-org/seafile/${SEAFILE_FILENAME}"
+SEAFILE_TARGZ="https://download.seadrive.org/${SEAFILE_FILENAME}"
 SEAFILE_INSTALLNAME="seafile-server-${SEAFILE_VERSION}"
 
 INSTALL_DIR="${APP_DIR}/${SEAFILE_INSTALLNAME}"
