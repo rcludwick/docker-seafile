@@ -20,3 +20,5 @@ RUN apt-get update
 ADD files /tmp/files
 RUN chmod 755 /tmp/files/build-script.sh
 RUN /tmp/files/build-script.sh
+
+expose 8080
