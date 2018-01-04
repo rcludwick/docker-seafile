@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 APP_DIR="/opt/seafile"
 TOKEN="${APP_DIR}/TOKEN"
-if [ -f "${TOKEN}" ]; then exit 0
+if [ -f "${TOKEN}" ]; then exit 0; fi
 
 CCNET_CONF="${APP_DIR}/conf/ccnet.conf"
 SEAHUB_CONF="${APP_DIR}/conf/seahub_settings.py"

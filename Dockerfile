@@ -16,8 +16,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.schema-version="1.0.0-rc.1"
 
+RUN apt-get update 
 ADD files /tmp/files
-RUN /bin/bash /tmp/files/build-script.sh
-
-EXPOSE 8080 
-
+RUN chmod 755 /tmp/files/build-script.sh
+RUN /tmp/files/build-script.sh
